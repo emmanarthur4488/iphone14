@@ -1,0 +1,56 @@
+.mycard{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    position: absolute;
+    height: 50%;
+}
+.phonecard{
+    position: relative;
+}
+.subphonecard{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #F5F5F7;
+    font-size: 12px;
+}
+.card-title{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #F5F5F7;
+}
+.card-title p{
+    font-size: 15px;
+}
+.card-title .only{
+    font-size: 12px;
+    padding-top: 1rem;
+}
+.card-title .apply{
+    padding-top: 5px;
+    color: #2997FF;
+    text-decoration: none;
+}
+.mobile-card{
+    display: none;
+}
+
+@media (max-width: 800px){
+    .card-title p{
+        font-size: 12px;
+    }
+    .banner{
+        display: none;
+    }
+    .mobile-card{
+        display: block;
+        width: 100%;
+        position: absolute;
+        height: 50%;
+        
+    }
+}

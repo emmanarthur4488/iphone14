@@ -1,0 +1,36 @@
+.wow{
+    width: 100%;
+    padding-top: 15rem;
+    text-align: center;
+    align-items: center;
+    background: #070725;
+    padding-bottom: 3rem;
+}
+.wow h2{
+    color: #F5F5F7;
+}
+.wow p{
+    color: #F5F5F7;
+    padding-top: 5px;
+    font-size: 15px;
+}
+.wow .shop{
+    color:#2997FF;
+    padding-top: 1rem;
+    font-size: 12px;
+}
+
+
+@media (max-width: 800px){
+    .wow{
+        width: 100%;
+        padding-top: 10rem;
+    }
+    .wow h2{
+        color: #F5F5F7;
+        font-size: 20px;
+    }
+    .wow p{
+        font-size: 12px;
+    }
+}

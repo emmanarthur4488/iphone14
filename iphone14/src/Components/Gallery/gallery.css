@@ -1,0 +1,129 @@
+.gallery{
+    width: 100%;
+}
+.gallery img{
+    width: 100%;
+}
+.footnote{
+    width: 100%;
+}
+.footnote p{
+    font-size: 12px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background: #eeeeee;
+    padding-top: 1rem;
+    color: #424245;
+}
+.footer-links{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 4rem;
+    background: #eeeeee;
+}
+.foot-link h1{
+    font-size: 14px;
+    padding-bottom: 5px;
+    padding-top: 1rem;
+    color: #1D1D1F;
+}
+.foot-link ul li{
+    list-style: none;
+    font-size: 12px;
+    padding-bottom: 4px;
+    color: #424245;
+}
+.footer{
+    width: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background: #eeeeee;
+}
+.footer .footerpara{
+    display: flex;
+}
+.footer .footerpara p{
+    font-size: 12px;
+    color: #424245;
+}
+.footer .footerpara span{
+    color: #2997FF;
+}
+.copyright-links{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.copyright-links .policy ul{
+    display: flex;
+}
+.policy ul li{
+    list-style: none;
+    padding-right: 10px;
+    font-size: 12px;
+    color: #424245;
+}
+.copyright-links .copy{
+    font-size: 12px;
+    color: #424245;
+}
+.state .united{
+    font-size: 12px;
+    color: #424245;
+}
+
+@media (max-width: 800px){
+    .foot-link ul li{
+       display: none;
+    }
+    .footer-links{
+        display: grid;
+        grid-template-columns: auto;
+        padding: 4rem;
+        background: #eeeeee;
+        padding: 1rem;
+    }
+    .footer .footerpara{
+        display: block;
+    }
+    .footer .footerpara p{
+        font-size: 8px;
+        color: #424245;
+    }
+    .copyright-links{
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    .policy ul li{
+        list-style: none;
+        font-size: 8px;
+        color: #424245;
+        padding-right: 5px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    .copyright-links .copy{
+        font-size: 10px;
+        color: #424245;
+    }
+    .state .united{
+        font-size: 10px;
+        color: #424245;
+    }
+    .footnote p{
+        font-size: 12px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background: #eeeeee;
+        padding-top: 1rem;
+        color: #424245;
+    }
+    .footer{
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background: #eeeeee;
+    }
+}
